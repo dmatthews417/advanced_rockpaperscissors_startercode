@@ -19,6 +19,11 @@
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
+var rock= $("#rock") ;
+var paper=$("#paper");
+var scissors=$("#scissors");
+
+
 
 
 
@@ -27,4 +32,20 @@
 
 
 // DOCUMENT READY FUNCTION
+$(document).ready(function(){
+        alert("hi");
+        
+$("#rock").click(function(){
+  $("#userc").text("Rock");
+});
 
+$("#paper").click(function(){
+  $("#userc").text("Paper");
+});
+
+$("#scissors").click(function(){
+  $("#userc").text("Scissors");
+});
+
+
+});
